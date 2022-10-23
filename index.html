@@ -24,20 +24,44 @@
 
     <section class="mainbody">
         <div class="searchbar">
-                <input type="text" placeholder="Book title">
-                <input type="submit" value="Search">
+                <input id="searchbox" type="text" placeholder="Book title">
+                <input id="searchbutton" type="submit" value="Search">
         </div>
 
-        <div class="infosection">
-            <h1>Book information</h1>
-            <div class="infosection2">
-                Name: </br> 
-                ID: </br>
-                Author: </br>
-                Status: </br>
-                Location: </br>
+        <section class="infosectionmain"> 
+            <div id="infosection1">
+                <h1>Book information</h1>
+                <div class="infosection11">
+                    Name: How to do a hackathon poorly but proudly</br> 
+                    ID: 3</br>
+                    Author: Liam Brown</br>
+                    Status: Not taken</br>
+                    Location: C</br>
+                </div>
             </div>
-        </div>
+
+            <div id="infosection2">
+                <h1>Book information</h1>
+                <div class="infosection21">
+                    Name: Programming Languages and Computer Networks, 2nd Edition</br> 
+                    ID: 2</br>
+                    Author: Cat Luong</br>
+                    Status: Not taken</br>
+                    Location: B</br>
+                </div>
+            </div>
+
+            <div id="infosection3">
+                <h1>Book information</h1>
+                <div class="infosection31">
+                    Name: Vietnamese Vocabulary</br> 
+                    ID: 1</br>
+                    Author: Chau Nguyen</br>
+                    Status: Not taken</br>
+                    Location: A</br>
+                </div>
+            </div>
+        </section>    
 
         <div class="gobutton">
             <input type="submit" value="Let's find it!" id="findit">
@@ -51,6 +75,6 @@
 
         </div>
     </footer>
-
+    <script src="main.js"></script>
 </body>
 </html>
